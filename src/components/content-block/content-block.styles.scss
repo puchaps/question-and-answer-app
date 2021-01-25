@@ -1,0 +1,35 @@
+.content-block {
+  width: 50%;
+  margin: 20vh auto;
+};
+
+@media screen and (max-width: 2200px) {
+  .content-block {
+    width: 50%;
+  }
+};
+
+
+@media screen and (max-width: 1440px) {
+  .content-block {
+    width: 60%;
+  }
+};
+
+@media screen and (max-width: 1024px) {
+  .content-block {
+    width: 70%;
+  }
+};
+
+@media screen and (max-width: 768px) {
+  .content-block {
+    width: 80%;
+  }
+};
+
+@media screen and (max-width: 500px) {
+  .content-block {
+    width: 90%;
+  }
+};

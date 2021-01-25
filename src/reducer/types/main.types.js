@@ -1,0 +1,1 @@
+export const TOGGELE_INFO = 'MAIN-REDUCE/TOGGELE_INFO';
