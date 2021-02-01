@@ -2,4 +2,14 @@
   width: 90%;
   margin-top: 20px;
   line-height: 1.5;
+  animation: opasiti 1s ease;
+}
+
+@keyframes opasiti{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
