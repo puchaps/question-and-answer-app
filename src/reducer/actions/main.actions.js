@@ -1,6 +1,8 @@
-import { TOGGELE_INFO } from "../types/main.types";
+import TOGGLE_INFO from "../types/main.types";
 
-export const toggleInfoAC = (choosedItemId) => ({
-  type: TOGGELE_INFO,
-  payload: choosedItemId
+const toggleInfoAC = (chooseItemId) => ({
+  type: TOGGLE_INFO,
+  payload: chooseItemId,
 });
+
+export default toggleInfoAC;

@@ -1,1 +1,3 @@
-export const TOGGELE_INFO = 'MAIN-REDUCE/TOGGELE_INFO';
+const TOGGLE_INFO = 'MAIN-REDUCE/TOGGLE_INFO';
+
+export default TOGGLE_INFO;

@@ -1,17 +1,20 @@
-import { TOGGELE_INFO } from "./types/main.types";
+import TOGGLE_INFO from "./types/main.types";
 
-import { changeToggleChoosedItem } from "./utils/main.utils";
+import changeToggleChooseItem from "./utils/main.utils";
 
 const mainReducer = (state, action) => {
-  switch(action.type) {
-    case TOGGELE_INFO:
+  switch (action.type) {
+    case TOGGLE_INFO:
       return {
         ...state,
-        questionsAndAnswer: changeToggleChoosedItem(state.questionsAndAnswer, action.payload)
-      }
+        questionsAndAnswer: changeToggleChooseItem(
+          state.questionsAndAnswer,
+          action.payload
+        ),
+      };
     default:
-      return state
-  };
+      return state;
+  }
 };
 
 export default mainReducer;

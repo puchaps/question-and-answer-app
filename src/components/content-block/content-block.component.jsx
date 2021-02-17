@@ -1,13 +1,13 @@
-import './content-block.styles.scss';
+import React from "react";
 
-import ContentPreview from '../content-preview/content-preview.component';
+import "./content-block.styles.scss";
 
-const ContentBlock = () => {
-  return (
-    <div className="content-block">
-      <ContentPreview/>
-    </div>
-  );
-};
+import ContentPreview from "../content-preview/content-preview.component";
+
+const ContentBlock = () => (
+  <div className="content-block">
+    <ContentPreview />
+  </div>
+);
 
 export default ContentBlock;
